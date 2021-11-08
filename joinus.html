@@ -1,0 +1,219 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" rel="stylesheet" />
+
+    <style>
+        html {
+            background: #fd5e34;
+            color: #fff;
+        }
+
+        body {
+            background: #fd5e34;
+            color: #fff;
+            padding: 40px;
+        }
+
+        .myunderline {
+            border-bottom: 4px solid white;
+            padding-bottom: 4px;
+            display: inline-block;
+            /* border-radius: 10px; */
+        }
+
+        .myaccording-focus {
+            opacity: 1;
+        }
+
+        .myaccording-nofocus {
+            opacity: 0.5;
+        }
+
+        .myaccording-nofocus:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .gallery {
+            background: none;
+        }
+
+        .gallery-cell {
+            width: 500px;
+            /* height: 200px; */
+            margin-right: 10px;
+        }
+
+        .gallery-cell.dot {
+            background-color: white;
+        }
+
+        .gallery-cell.is-selected {}
+
+        /* cell number */
+        .gallery-cell:before {
+            display: block;
+            text-align: center;
+            line-height: 200px;
+            font-size: 80px;
+            color: white;
+        }
+
+        .contactusinput {
+            border-radius: 0;
+            background: none;
+            color: white;
+            border: 2px solid white;
+            margin-top: 10px;
+        }
+    </style>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="margin-bottom: 50px; z-index: 999">
+        <a class="navbar-brand" href="#"><img src="logo.png" class="" style="width: 250px" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">有關我們 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">導師介紹</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="height: 600px">
+        <img style="width: 350px; position: absolute; right: -100px; top: 10px" src="img/slash.png" />
+
+        <img style="width: 350px; position: absolute; left: 50px; top: 150px" src="img/oepntag.png" />
+        <img style="width: 350px; position: absolute; right: 50px; top: 300px" src="img/closetag.png" />
+
+        <img style="width: 350px; position: absolute; left: -50px; top: 350px" src="img/bubble.png" />
+
+        <img style="width: 350px; position: absolute; right: 50px; top: 480px" src="img/homepage/wewannalearn.png" />
+        <img style="width: 100px; position: absolute; left: 30px; top: 580px" src="img/homepage/lighteningicon.png" />
+    </div>
+
+    <div class="container" style="height: 400px; text-align: center" data-aos="fade-up" data-aos-duration="2000">
+        <h1 style="margin-bottom: 50px">無論你是</h1>
+        <div class="myunderline" style="border-width: 10px; margin-bottom: 20px;">
+            有教學經驗的導師
+        </div>
+        <div>如果你是任何行內領域的專家，好想好想好想好想好想，<br>好想好想好想好想好想好想好想好想好想好想好想</div>
+    </div>
+
+    <div class="container" style="margin-top: 0" data-aos="fade-up" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-sm-7">
+                <img src="img/bus/photo22.png" style="
+              width: 100%;
+              margin-left: -200px;
+              margin-right: auto;
+            " class="d-none d-sm-block" />
+
+            </div>
+            <div class="col-sm-5">
+
+                <h1>加盟好想學的6大好處</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 0" data-aos="fade-up" data-aos-duration="2000">
+        <img style="width: 250px; position:absolute; top: 300px;" src="img/slash.png">
+        <img style="right: 100px; width: 250px; position:absolute;  top: 200px;" src="img/closetag.png">
+
+    </div>
+
+
+    <div class="container" style="margin-top: 700px; text-align: center; height: 1000px;" data-aos="fade-up"
+        data-aos-duration="2000">
+        <h1>立即踏出第一</h1>
+        <div id="demo" class="carousel slide" data-interval="false" data-ride="carousel" data-pause="hover">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    導師名字
+                </div>
+                <div class="carousel-item">
+                    導師名字
+                </div>
+                <div class="carousel-item">
+                    導師名字
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+
+    <script>
+        AOS.init();
+
+        function switchphoto_mousin(x) {
+            x = x.getElementsByTagName("img")[0];
+            if (x.src.indexOf("before") != -1) {
+                x.src = x.src.split("before").join("after");
+            }
+        }
+
+        function switchphoto_mousout(x) {
+            x = x.getElementsByTagName("img")[0];
+            if (x.src.indexOf("after") != -1) {
+                x.src = x.src.split("after").join("before");
+            }
+        }
+    </script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+</body>
+
+</html>
