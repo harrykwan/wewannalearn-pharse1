@@ -340,47 +340,66 @@
 
     <div class="container d-xs-block d-md-none" style="height: 800px; text-align: center" data-aos="fade-up"
         data-aos-duration="2000">
-        <img style="width: 350px; position: absolute; right: -250px; top: -280px" src="img/slash.png" />
+        <img style="width: 200px; position: absolute; right: -100px; top: -100px" src="img/closetag.png" />
+        <img style="width: 130px; position: absolute; left: -70px; top: -100px" src="img/bubble.png" />
         <h1 style="margin-bottom: 50px">導師介紹</h1>
         <div class="gallery js-flickity" style="width: calc(100% + 100px);  margin-left: -50px; margin-right: 0">
             <div class="gallery-cell">
-                <img style="width: 250px" src="img/homepage/busbefore.png" />
-                <img src="img/homepage/busword.png"
-                    style="width: 250px; position: absolute; top: 0; left: 80px; z-index: 999" />
-                <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
-                        style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                <div onmouseover="switchphoto_mousin(this)" onmouseout="switchphoto_mousout(this)">
+                    <img style="width: 250px" src="img/homepage/busbefore.png" />
+                    <img src="img/homepage/busword.png"
+                        style="width: 250px; position: absolute; top: 0; left: 80px; z-index: 999" />
+                    <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
+                            style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                </div>
             </div>
             <div class="gallery-cell">
-                <img style="width: 250px" src="img/homepage/doublestickbefore.png" onmouseover="" onmouseout="" />
-                <img src="img/homepage/doublestickword.png"
-                    style="width: 250px; position: absolute;  top: 0; left: 80px; z-index: 999" />
-                <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
-                        style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                <div onmouseover="switchphoto_mousin(this)" onmouseout="switchphoto_mousout(this)">
+                    <img style="width: 250px" src="img/homepage/doublestickbefore.png" onmouseover="" onmouseout="" />
+                    <img src="img/homepage/doublestickword.png"
+                        style="width: 250px; position: absolute;  top: 0; left: 80px; z-index: 999" />
+                    <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
+                            style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                </div>
             </div>
             <div class="gallery-cell">
-                <img style="width: 250px" src="img/homepage/saurcebefore.png" onmouseover="" onmouseout="" />
-                <img src="img/homepage/saurceword.png"
-                    style="width: 250px; position: absolute;  top: 0; left: 80px; z-index: 999" />
-                <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
-                        style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                <div onmouseover="switchphoto_mousin(this)" onmouseout="switchphoto_mousout(this)">
+                    <img style="width: 250px" src="img/homepage/saurcebefore.png" onmouseover="" onmouseout="" />
+                    <img src="img/homepage/saurceword.png"
+                        style="width: 250px; position: absolute;  top: 0; left: 80px; z-index: 999" />
+                    <a href="tutorintro1.html"> <img src="img/homepage/knowmorebutton.png"
+                            style="width: 120px; position: absolute; bottom: 50px; left: 110px; z-index: 999" /></a>
+                </div>
             </div>
         </div>
 
     </div>
 
-    <div class="container d-xs-block d-md-none" style=" text-align: center" data-aos="fade-up" data-aos-duration="2000">
-        <h1 style="margin-bottom: 50px">導師介紹</h1>
-    </div>
 
     <div class="container" style="height: 1000px; margin-top: 100px; text-align: center" data-aos="fade-up"
         data-aos-duration="2000">
-        <div class="backgroundword" style="left: -80px; top: -100;">
-            香港人精神
+
+        <div class="d-none d-md-block ">
+            <div class="backgroundword" style=" left: -80px; top: -100;">
+                香港人精神
+            </div>
+            <div class="backgroundword" style="right: -80px; top: 100;">
+                能屈能伸
+            </div>
         </div>
-        <div class="backgroundword" style="right: -80px; top: 100;">
-            能屈能伸
+
+        <div class="d-xs-block d-md-none">
+            <div class="backgroundword" style="font-size: 50px; left: -80px; top: -200;">
+                香港人精神
+            </div>
+            <div class="backgroundword" style="font-size: 50px; right: -80px; top: -100;">
+                能屈能伸
+            </div>
         </div>
-        <div class="" style="width: 50%; left: 0; right: 0; margin-left: auto; margin-right: auto;">
+
+
+
+        <div class="d-none d-md-block" style="width: 50%; left: 0; right: 0; margin-left: auto; margin-right: auto;">
             <h1>聯絡我們</h1>
             <form style="margin-top: 30px;">
                 <div class="form-group ">
@@ -395,8 +414,34 @@
                 <button style="margin-top: 20px;" type="submit" class="btn btn-primary">傳送</button>
             </form>
         </div>
-        <img style="width: 350px; position: absolute; left: -200px; top: 50px" src="img/slash.png" />
-        <img style="width: 200px; position: absolute; left: 0px; top: 380px" src="img/bubble.png" />
+
+        <div class="d-none d-md-block ">
+            <img style="width: 350px; position: absolute; left: -200px; top: 50px" src="img/slash.png" />
+            <img style="width: 200px; position: absolute; left: 0px; top: 380px" src="img/bubble.png" />
+        </div>
+
+
+        <div class="d-xs-block d-md-none "
+            style="width: 100%; left: 0; right: 0; margin-left: auto; margin-right: auto;">
+            <h1>聯絡我們</h1>
+            <form style="margin-top: 30px;">
+                <div class="form-group ">
+                    <input type="email" class="form-control contactusinput " id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="form-group ">
+                    <input type="email" class="form-control contactusinput" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <textarea class="form-control contactusinput" id="exampleFormControlTextarea1" rows="10"></textarea>
+                <button style="margin-top: 20px;" type="submit" class="btn btn-primary">傳送</button>
+            </form>
+        </div>
+        <div class="d-xs-block d-md-none">
+            <img style="width: 200px; position: absolute; left: -100px; top: -80px" src="img/slash.png" />
+            <img style="width: 150px; position: absolute; right: -60px; top: -220px" src="img/bubble.png" />
+        </div>
+
     </div>
 
     <script>
